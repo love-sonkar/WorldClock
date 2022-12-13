@@ -18,10 +18,10 @@ const TimeZoneSlector = ({
           value={handleSearch}
           onChange={GetValue}
           autoComplete="off"
-          className="py-1 px-2 text-base outline-none border border-r-0 border-custume-main bg-transparent flex-1"
+          className="py-2 px-2 text-base outline-none border border-r-0 border-custume-main bg-transparent flex-1 text-custume-main"
         />
         <button
-          className="px-1 py-1 text-base border border-custume-main rounded-r-md bg-custume-main hover:bg-transparent text-white hover:text-custume-main border-l-none w-24"
+          className="px-1 py-2 text-base border border-custume-main rounded-r-md bg-custume-main hover:bg-transparent text-white hover:text-custume-main border-l-none w-24"
           onClick={() => SearchValue(handleSearch)}
         >
           Get Time

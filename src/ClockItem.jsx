@@ -36,9 +36,13 @@ const ClockItem = ({ timeshow, dateshow, changeTimeZone }) => {
             </div>
             <h1 className="text-3xl py-2 text-center">{changeTimeZone}</h1>
 
-            <div className=" py-2">
-              <h1 className="text-xl text-custume-main">{item.heading}</h1>
-              <p className="text-base capitalize   text-black">{item.para}</p>
+            <div className=" py-3 ">
+              <h1 className="text-xl py-1 text-custume-main ">
+                {item.heading}
+              </h1>
+              <p className="text-base capitalize py-2  text-black">
+                {item.para}
+              </p>
             </div>
             <button className="w-full py-2 px-4 border border-custume-main  bg-custume-main hover:bg-transparent text-white hover:text-custume-main text-base rounded">
               My Portfolio

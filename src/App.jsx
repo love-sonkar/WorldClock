@@ -1,4 +1,5 @@
 import React from "react";
+import Alarm from "./Alarm";
 import Clock from "./Clock";
 import Header from "./Header";
 

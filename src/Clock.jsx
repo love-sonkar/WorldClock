@@ -44,7 +44,7 @@ const Clock = () => {
         dateshow={datePrint}
         changeTimeZone={changeTimeZone}
       />
-      <Alarm />
+      <Alarm getTimeZoneValue={showTime} />
     </div>
   );
 };

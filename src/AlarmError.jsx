@@ -12,7 +12,7 @@ const AlarmError = ({ setShowHide }) => {
     zIndex: 999,
   };
   return (
-    <div className=" top-0 left-0 px-1 fixed backdrop-blur-sm h-screen grid place-items-center">
+    <div className=" top-0 left-0 px-1 fixed backdrop-blur-sm h-screen grid place-items-center w-full">
       <div className="bg-custume-main rounded-md py-8 text-white shadow-md text-center break-words relative ">
         <span>
           <CloseIcon onClick={() => setShowHide(false)} style={styleClose} />
